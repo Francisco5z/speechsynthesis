@@ -10,7 +10,7 @@ export default function Home() {
   const [speechContentIsBigger, setSpeechContentIsBigger] = useState(false);
 
 
-  const MaxLength = 1500;
+  const MaxLength = 10000;
 
   function handleSpeakPause() {
     const utter = new SpeechSynthesisUtterance();
